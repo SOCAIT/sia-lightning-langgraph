@@ -1,0 +1,10 @@
+langchain 
+langgraph 
+langchain_openai
+tavily-python 
+agentlightning[verl,apo] 
+unsloth[pt231] 
+datasets 
+wandb 
+pandas 
+rich
