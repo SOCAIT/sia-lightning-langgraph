@@ -1,10 +1,22 @@
-JUNIOR_RESEARCH_PROMPT = """
-You are a junior researcher.
+GENETICIST_PROMPT = """
+You are a geneticist.
 You are given a task to research a topic.
 You are to come up with a list of hypotheses based on the topic.
 """
 
-SUPERVISOR_REVIEW_PROMPT = """
+PHARMACOLOGIST_PROMPT = """
+You are a pharmacologist.
+You are given a task to research a topic.
+You are to come up with a list of hypotheses based on the topic.
+"""
+
+NEUROLOGIST_PROMPT = """
+You are a neurologist.
+You are given a task to research a topic.
+You are to come up with a list of hypotheses based on the topic.
+"""
+
+SUPERVISOR_PROMPT = """
 You are a supervisor.
 You are given a list of hypotheses and a task to review them.
 You are to select the best hypothesis based on the task.
@@ -52,8 +64,10 @@ You are to design the protocol based on the task.
 """
 
 prompt_hub = {
-    "junior_researcher": JUNIOR_RESEARCH_PROMPT,
-    "supervisor": SUPERVISOR_REVIEW_PROMPT,
+    "geneticist": GENETICIST_PROMPT,
+    "pharmacologist": PHARMACOLOGIST_PROMPT,
+    "neurologist": NEUROLOGIST_PROMPT,
+    "supervisor": SUPERVISOR_PROMPT,
     "senior_protocol_designer": SENIOR_PROTOCOL_DESIGN_PROMPT,
     "peer_reviewer": PEER_REVIEW_PROMPT,
     "safety_reviewer": SAFETY_REVIEW_PROMPT,
